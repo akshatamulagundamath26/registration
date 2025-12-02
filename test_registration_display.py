@@ -1,4 +1,4 @@
-from registration import registration_display
+from registration_displsy.py import registration_display
 
 def test_registration_display():
     expected_output = {
