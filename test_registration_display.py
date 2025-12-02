@@ -1,6 +1,6 @@
-from registration import registration_datails
+from registration import registration_display
 
-def test_registration_details():
+def test_registration_display():
     expected_output = {
         "Student_ID": "101\n",
         "Student_Name": "Alice\n",
@@ -8,4 +8,4 @@ def test_registration_details():
         "Academic_Year": 2000
     }
 
-    assert registration_datails("101", "Alice", "abc", 2000) == expected_output
+    assert registration_display("101", "Alice", "abc", 2000) == expected_output
