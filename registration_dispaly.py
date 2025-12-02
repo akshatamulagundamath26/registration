@@ -9,9 +9,9 @@ def registration_datails(Student_ID, Student_Name, Course_Enroled, Academic_Year
 
 
 if __name__ == "__main__":
-    student_id = "101"
-    student_name = "Alice"
-    course_enroled = "abc"
-    academic_year = 2000
+    Student_ID = "101"
+    Student_Name = "Alice"
+    Course_Enroled = "abc"
+    Academic_Year = 2000
 
-    print(registration_datails(student_id, student_name, course_enroled, academic_year))
+    print(registration_datails(Student_ID, Student_Name, Course_Enroled, Academic_Year))
