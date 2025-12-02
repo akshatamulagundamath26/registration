@@ -1,4 +1,4 @@
-def registration_datails(Student_ID, Student_Name, Course_Enroled, Academic_Year):
+def registration_displays(Student_ID, Student_Name, Course_Enroled, Academic_Year):
     result = {
         "Student_ID": f"{Student_ID}\n",
         "Student_Name": f"{Student_Name}\n",
@@ -14,4 +14,4 @@ if __name__ == "__main__":
     Course_Enroled = "abc"
     Academic_Year = 2000
 
-    print(registration_datails(Student_ID, Student_Name, Course_Enroled, Academic_Year))
+    print(registration_displays(Student_ID, Student_Name, Course_Enroled, Academic_Year))
