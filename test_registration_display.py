@@ -1,4 +1,4 @@
-from registration import registration_datails
+from registration import registration_datails.py
 
 def test_registration_details():
     expected_output = {
